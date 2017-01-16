@@ -9,6 +9,8 @@ private void funName(){
 }
 
 工作线程订阅方法用
-@Subscribe(Bus2.WORKER_THREAD){
+@Subscribe(Bus2.WORKER_THREAD)
 
-}
+发送线程订阅方法用
+@Subscribe(Bus2.POSTING_THREAD)
+)
